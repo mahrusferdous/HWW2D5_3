@@ -11,5 +11,7 @@ while True:
     except Exception as e:
         print("An error occurred.")
         print(e)
+    else:
+        print("Nothing occurred.")
     finally:
         print("Thank you for using the temperature converter.")
